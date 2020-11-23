@@ -22,7 +22,7 @@ let firstTime = true;
 async function getData(){
 	const response = await fetch(url);
 	const data =  await response.json();
-	console.log(data);
+	// console.log(data);
 	const {latitude, longitude, velocity} = data;
 
 	mymap.setView([latitude, longitude], mymap.getZoom());
