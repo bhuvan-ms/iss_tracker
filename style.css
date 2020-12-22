@@ -3,7 +3,7 @@ html,body{
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   background-color:#f8f8f8;
-  overflow : hidden; /*prevents scroll wheen frim appearing  */
+/*   overflow : hidden; prevents scroll wheen frim appearing  */
 }
 
 h1{
